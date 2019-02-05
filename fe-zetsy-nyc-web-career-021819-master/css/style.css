@@ -1,0 +1,72 @@
+/*////////////// Fonts //////////////*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+/*////////// Global Styles //////////*/
+
+body {
+	background: #F3EBE9;
+	font-size: 100%;
+	font-family: 'Times New Roman', serif; 
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 45px 20px;
+}
+
+/* Write all remaining styles here */
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 4.5em;
+	color: rgb(153,173,166);
+}
+
+h1:hover {
+	color: rgb(112,127,122);
+}
+
+.top img {
+	border: 5px solid rgb(153,173,166);
+	position: relative;
+	bottom: 1.6em;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-family: 2.5em;
+	color: rgb(112,127,122);
+}
+
+
+p a:link {
+	color:rgb(33,132,185);
+	text-decoration:none;
+}
+
+p a:visited {
+	color:rgb(33,132,185);
+	text-decoration:none;
+}
+
+p a:hover  {
+	color:rgb(33,132,185);
+	text-decoration: underline;
+}
+
+
+.press-section img {
+	display:inline;
+	border: 5px solid rgb(204,204,204);
+}
+
+.press-section img:hover {
+	border: 5px solid rgb(112,127,122);
+}
+
+footer p {
+	text-align: right;
+}
